@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta name="author" content="Hayk AVETISYAN"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" type="text/css"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css"/>
+
+    <link id="general-theme" rel="stylesheet" type="text/css" href="assets/frameworks/hcf/haykscompactframework_3.0.1-a.css"/>
+
+
+    <title>Hayk's Compact CSS Framework</title>
+</head>
+<body id="eee" class="smart-justify">
+<div class="container compact-centered">
+    <section>
+        <header>
+            <h1>Hayk's Compact CSS Framework 3.0.1 alpha</h1>
+            <h2>
+                <input type="radio" id="light" name="theme" class="radio" checked="checked"/>
+                <label for="light">No theme</label>
+
+                <input type="radio" id="dark" name="theme" class="radio"/>
+                <label for="dark">Dark theme</label>
+            </h2>
+        </header>
+        <article>
+            <h2>What is Lorem Ipsum eigenlijk?</h2>
+            <p>
+                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard
+                proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
+                en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd
+                maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60
+                populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer recentelijk
+                door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.
+            </p>
+            <h3>Waar komt het vandaan?</h3>
+            <p>
+                In tegenstelling tot wat algemeen aangenomen wordt is Lorem Ipsum niet zomaar willekeurige tekst. het
+                heeft zijn wortels in een stuk klassieke latijnse literatuur uit 45 v.Chr. en is dus meer dan 2000 jaar
+                oud. Richard McClintock, een professor latijn aan de Hampden-Sydney College in Virginia, heeft één van
+                de meer obscure latijnse woorden, consectetur, uit een Lorem Ipsum passage opgezocht, en heeft tijdens
+                het zoeken naar het woord in de klassieke literatuur de onverdachte bron ontdekt. Lorem Ipsum komt uit
+                de secties 1.10.32 en 1.10.33 van "de Finibus Bonorum et Malorum" (De uitersten van goed en kwaad) door
+                Cicero, geschreven in 45 v.Chr. Dit boek is een verhandeling over de theorie der ethiek, erg populair
+                tijdens de renaissance. De eerste regel van Lorem Ipsum, "Lorem ipsum dolor sit amet..", komt uit een
+                zin in sectie 1.10.32.
+            </p>
+            <p>
+                Het standaard stuk van <a href="#">Lorum Ipsum</a> wat sinds de 16e eeuw wordt gebruikt is hieronder,
+                voor wie er interesse in heeft, weergegeven. Secties <a href="#"><strong>1.10.32</strong></a> en
+                <a href="#"><strong>1.10.33</strong></a> van <strong class="superstrong">"de Finibus Bonorum et
+                Malorum"</strong> door <strong class="extremestrong">Cicero</strong> zijn ook weergegeven in hun exacte
+                originele vorm, vergezeld van engelse versies van de 1914 vertaling door H. Rackham.
+            </p>
+            <h3><a href="#">Waarom gebruiken we het?</a></h3>
+            <p>
+                Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een
+                pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is
+                dat het uit een min of meer normale verdeling van letters bestaat, in tegenstelling tot "Hier uw tekst,
+                hier uw tekst" wat het tot min of meer leesbaar nederlands maakt. Veel desktop publishing pakketten en
+                web pagina editors gebruiken tegenwoordig Lorem Ipsum als hun standaard model tekst, en een zoekopdracht
+                naar "lorem ipsum" ontsluit veel websites die nog in aanbouw zijn. Verscheidene versies hebben zich
+                ontwikkeld in de loop van de jaren, soms per ongeluk soms expres (ingevoegde humor en dergelijke).
+            </p>
+        </article>
+
+        <article>
+            <h2>Forms</h2>
+            <form>
+                <fieldset>
+                    <legend><i class="fa fa-user-plus"></i> Sign Up</legend>
+                    <label for="name" class="textbox-label strong">Name</label>
+                    <input type="text" id="name" placeholder="Name" class="textbox wide ghost" required="required"/>
+
+                    <label for="username" class="textbox-label strong">Username</label>
+                    <input type="text" id="username" placeholder="Username" class="textbox" required="required"/>
+
+                    <label for="email" class="textbox-label strong">Username</label>
+                    <input type="email" id="email" placeholder="E-mail" class="textbox box-xl" required="required"/>
+
+                    <label for="phone" class="textbox-label strong">Phone</label>
+                    <input type="tel" id="phone" placeholder="Phone" class="textbox wide box-m"/>
+
+                    <fieldset class="inline">
+                        <legend>Which colors do you like?</legend>
+                        <input type="checkbox" id="red" class="checkbox">
+                        <label for="red">Red</label>
+
+                        <input type="checkbox" id="green" class="checkbox">
+                        <label for="green">Green</label>
+
+                        <input type="checkbox" id="blue" class="checkbox">
+                        <label for="blue">Blue</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Which color do you like most of all?</legend>
+                        <input type="radio" id="brown" class="radio" name="favorite">
+                        <label for="brown">Brown</label>
+
+                        <input type="radio" id="pink" class="radio" name="favorite">
+                        <label for="pink">Pink</label>
+
+                        <input type="radio" id="purple" class="radio" name="favorite">
+                        <label for="purple">Purple</label>
+                    </fieldset>
+
+                    <label for="country" class="textbox-label">Country</label>
+                    <select id="country" class="combobox wide">
+                        <option>Belgium</option>
+                    </select>
+
+                    <label for="gender" class="textbox-label">Gender</label>
+                    <select id="gender" class="combobox">
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Newsbrief</legend>
+                    <label for="nbemail" class="textbox-label strong">E-mail</label>
+                    <input type="email" id="nbemail" placeholder="E-mail" class="textbox box-m"/>
+                </fieldset>
+                <button type="submit" id="sign-up" class="button button-s" disabled="disabled"><i class="fa fa-user-plus"></i>
+                    Sign Up
+                </button>
+                <button type="submit" id="send" data-tooltip="title" title="Send Something to Somebody" data-tooltip-offset="10px" class="button button-xl ghost">Send</button>
+                <button type="button" id="help" class="button button-l button-wider"><i class="fa fa-question-circle"></i> Help
+                </button>
+                <button type="button" id="help-only" class="button button-s button-s-fw" data-tooltip="title" title="Help"><i
+                        class="fa fa-question-circle"></i></button>
+                <button type="button" id="crown" class="button button-m button-m-fw"><i class="fi-crown"></i></button>
+                <a href="#" class="button button-l button-l-fw" data-tooltip="title" title="Remove"><i
+                        class="fi-trash"></i></a>
+                <a href="#" class="button button-l button-wider"><i class="fi-trash"></i> Remove All</a>
+                <div class="control-group">
+                    <span class="control-group-button" data-tooltip="title" title="Info">
+                        <button type="button" id="info-button" class="button button-s button-wider">Information</button>
+                    </span>
+                    <input type="text" id="search" placeholder="Search" class="textbox"/>
+                    <span class="control-group-button">
+                        <button type="button" id="search-button" class="button button-s button-wider">Search</button>
+                    </span>
+                </div>
+                <div class="button-group">
+                    <button type="button" id="abc" class="button button-s button-wider">Abc</button>
+                    <input type="number" id="number" class="textbox"/>
+                    <button type="button" id="def" class="button button-s button-wider">Def</button>
+                    <button type="button" id="ghi" class="button button-s button-wider">Ghi</button>
+                </div>
+            </form>
+            <p>
+                Het standaard stuk van Lorum Ipsum wat sinds de 16e eeuw wordt gebruikt is hieronder, voor wie er
+                interesse in heeft, weergegeven. Secties 1.10.32 en 1.10.33 van "de Finibus Bonorum et Malorum" door
+                Cicero zijn ook weergegeven in hun exacte originele vorm, vergezeld van engelse versies van de 1914
+                vertaling door H. Rackham.
+            </p>
+            <form class="form form-hover">
+                <fieldset>
+                    <legend>Invite</legend>
+                    <input type="text" id="friend-name" placeholder="Name" class="textbox wide" required="required"/>
+                    <input type="email" id="friend-email" placeholder="E-mail" class="textbox box-m"
+                           required="required"/>
+                    <input type="tel" id="friend-phone" placeholder="Phone" class="textbox wide box-l ghost"/>
+
+                    <label for="friend-country" class="textbox-label">Country</label>
+                    <select id="friend-country" class="combobox wide">
+                        <option>Belgium</option>
+                    </select>
+
+                    <label for="friend-gender" class="textbox-label">Gender</label>
+                    <select id="friend-gender" class="combobox">
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                    <label for="friend-message" class="textbox-label">Message</label>
+                    <textarea id="friend-message" class="textarea wide" rows="4"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Check</legend>
+                    <label for="check-username" class="textbox-label strong">Username</label>
+                    <input type="email" id="check-username" placeholder="E-mail" class="textbox box-m"/>
+                </fieldset>
+            </form>
+            <div class="alert">
+                <p class="strong"><i class="fa fa-warning"></i> <strong>Alert</strong></p>
+                <p>This is an example of alert</p>
+            </div>
+            <div class="alert">
+                Another example of alert
+            </div>
+            <div class="alert" aria-label="closable">
+                <button type="button" class="button button-s button-fw" aria-label="slideaway"><i class="fa fa-close"></i>
+                </button>
+                <p><i class="fa fa-warning"></i> <strong>Alert</strong></p>
+                <p>This is an example of alert with close button</p>
+            </div>
+        </article>
+
+        <article>
+            <h2>Tabs</h2>
+            <div role="tablist" class="tablist-icons">
+                <ul class="tablist-buttons">
+                    <li data-tab="#tab1-1" class="active"><a href="#"><i class="fa fa-fw fa-briefcase"></i><span> Briefcase</span></a>
+                    </li>
+                    <li data-tab="#tab1-2"><a href="#"><i class="fa fa-fw fa-camera"></i><span> Camera</span></a></li>
+                    <li data-tab="#tab1-3"><a href="#"><i class="fa fa-fw fa-cloud"></i><span> Cloud</span></a></li>
+                    <li data-tab="#tab1-4"><a href="#"><i class="fa fa-fw fa-gift"></i><span> Gift</span></a></li>
+                </ul>
+                <div role="tabpanel">
+                    <div id="tab1-1" role="tab" class="active">Tabpanel 1 - Briefcase</div>
+                    <div id="tab1-2" role="tab">Tabpanel 2 - Camera</div>
+                    <div id="tab1-3" role="tab">Tabpanel 3 - Cloud</div>
+                    <div id="tab1-4" role="tab">Tabpanel 4 - Gift</div>
+                </div>
+            </div>
+
+            <div role="tablist" class="tablist-text">
+                <ul class="tablist-buttons">
+                    <li data-tab="#tab2-1"><a href="#"><i class="fa fa-fw fa-briefcase"></i><span> Briefcase</span></a>
+                    </li>
+                    <li data-tab="#tab2-2" class="active"><a href="#"><i class="fa fa-fw fa-camera"></i> Camera</a></li>
+                    <li data-tab="#tab2-3"><a href="#"><i class="fa fa-fw fa-cloud"></i> Cloud</a></li>
+                    <li data-tab="#tab2-4"><a href="#"><i class="fa fa-fw fa-gift"></i> Gift</a></li>
+                </ul>
+                <div role="tabpanel">
+                    <div id="tab2-1" role="tab">Tabpanel 1 - Briefcase</div>
+                    <div id="tab2-2" role="tab" class="active">Tabpanel 2 - Camera</div>
+                    <div id="tab2-3" role="tab">Tabpanel 3 - Cloud</div>
+                    <div id="tab2-4" role="tab">Tabpanel 4 - Gift</div>
+                </div>
+            </div>
+
+            <div role="tablist">
+                <ul class="tablist-buttons">
+                    <li data-tab="#tab3-1"><a href="#"><i class="fa fa-fw fa-briefcase"></i><span> Briefcase</span></a>
+                    </li>
+                    <li data-tab="#tab3-2"><a href="#"><i class="fa fa-fw fa-camera"></i> Camera</a></li>
+                    <li data-tab="#tab3-3"><a href="#"><i class="fa fa-fw fa-cloud"></i> Cloud</a></li>
+                    <li data-tab="#tab3-4" class="active"><a href="#"><i class="fa fa-fw fa-gift"></i> Gift</a></li>
+                </ul>
+                <div role="tabpanel">
+                    <div id="tab3-1" role="tab">Tabpanel 1 - Briefcase</div>
+                    <div id="tab3-2" role="tab">Tabpanel 2 - Camera</div>
+                    <div id="tab3-3" role="tab">Tabpanel 3 - Cloud</div>
+                    <div id="tab3-4" role="tab" class="active">Tabpanel 4 - Gift</div>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <div class="gallery gallery-s" data-fadeto="0.6">
+                <h2>Gallery Small</h2>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/normal_landscape.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/normal_landscape.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/normal_portrait.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/square.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/panorama.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/panorama.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/square.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/normal_portrait.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/normal_portrait.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/normal_landscape.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="gallery gallery-m" data-fadeto="0.6">
+                <h2>Gallery Medium</h2>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/normal_landscape.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/normal_landscape.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/normal_portrait.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/square.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/panorama.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/panorama.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/square.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/normal_portrait.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/normal_portrait.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/normal_landscape.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="gallery gallery-l" data-fadeto="0.6">
+                <h2>Gallery Large</h2>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/normal_landscape.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/normal_landscape.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/normal_portrait.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/square.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/panorama.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/panorama.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/square.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/normal_portrait.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/normal_portrait.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure>
+                        <img alt="wallpaper" src="images/normal_landscape.jpg"/>
+                        <figcaption>Wallpaper source: InterfaceLift, Size: 1024x640</figcaption>
+                    </figure>
+                </a>
+            </div>
+        </article>
+
+        <article>
+            <button type="button" class="button button-l" id="show-modal" data-modal="#modal-example"
+                    data-triggers="showmodalonclick">Show Modal
+            </button>
+            <div class="modal" id="modal-example">
+                <div class="modal-content" aria-label="closable">
+                    <div class="modal-header">
+                        <button type="button" class="button button-l button-l-fw button-close" aria-label="close-modal"><i
+                                class="fa fa-close"></i></button>
+                        <h3><i class="fa fa-fw fa-snowflake-o"></i> Modal Header</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div role="tablist" class="tablist-icons">
+                            <ul class="tablist-buttons">
+                                <li data-tab="#tab4-1" class="active"><a href="#"><i
+                                        class="fa fa-fw fa-briefcase"></i><span> Briefcase</span></a>
+                                </li>
+                                <li data-tab="#tab4-2"><a href="#"><i
+                                        class="fa fa-fw fa-camera"></i><span> Camera</span></a></li>
+                                <li data-tab="#tab4-3"><a href="#"><i class="fa fa-fw fa-cloud"></i><span> Cloud</span></a>
+                                </li>
+                                <li data-tab="#tab4-4"><a href="#"><i
+                                        class="fa fa-fw fa-gift"></i><span> Gift</span></a></li>
+                            </ul>
+                            <div role="tabpanel">
+                                <div id="tab4-1" role="tab" class="active">
+                                    <a href="http://www.nieuwsblad.be" target="_blank">Tabpanel 1 - Briefcase</a></div>
+                                <div id="tab4-2" role="tab">Tabpanel 2 - Camera</div>
+                                <div id="tab4-3" role="tab">Tabpanel 3 - Cloud</div>
+                                <div id="tab4-4" role="tab">Tabpanel 4 - Gift</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="button button-m button-wider ghost"><i class="fa fa-check"></i> Apply</button>
+                        <button class="button button-m button-wider ghost" aria-label="close-modal"><i class="fa fa-reply"></i>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <footer>
+
+        </footer>
+    </section>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="assets/frameworks/hcf/haykscompactframework_3.0.1-a.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
